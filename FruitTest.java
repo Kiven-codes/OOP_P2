@@ -9,7 +9,7 @@ class Fruit {
 
     void displayInfo() {
         System.out.println("=======================");
-        System.out.println("My Sample Code for Fruit Class\n");
+        System.out.println("My favorite fruits and their color.\n");
         System.out.println("Fruit Name: " + name);
         System.out.println("Fruit Color: " + color);
         System.out.println("=======================\n");
@@ -59,4 +59,5 @@ public class FruitTest {
         myFruit = new Guava();
         myFruit.displayInfo();
     }
+
 }
